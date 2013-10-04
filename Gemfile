@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+# La siguiente linea se agregó en el capitulo 5 Bootstrap is a framework from Twitter that makes 
+# it easy to add nice web design (CSS) and user interface elements to an HTML5 application.
+gem 'bootstrap-sass', '2.1'  
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
