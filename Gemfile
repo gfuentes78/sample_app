@@ -4,7 +4,10 @@ gem 'rails', '3.2.13'
 
 # La siguiente linea se agregó en el capitulo 5 Bootstrap is a framework from Twitter that makes 
 # it easy to add nice web design (CSS) and user interface elements to an HTML5 application.
-gem 'bootstrap-sass', '2.1'  
+gem 'bootstrap-sass', '2.1' 
+
+# La siguiente linea se agregó en el capítulo 6 para poder encriptar las contraseñas.
+gem 'bcrypt-ruby', '3.0.1' 
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,6 +15,11 @@ gem 'bootstrap-sass', '2.1'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
+end
+
+# Grupo agregado en Cap. 6
+group :development do
+  gem 'annotate', '2.5.0'
 end
 
 
